@@ -31,3 +31,7 @@ function removeLastKitten() {
   return newKittens;
 }
 
+function removeFirstKitten() {
+  ver newKittens = [...kittens.slice(1, kittens.length)];
+  return newKittens;
+}
